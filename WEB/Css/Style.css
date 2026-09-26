@@ -1,0 +1,144 @@
+* {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+:root {
+ 
+   --color-estandar2: #FFB23E;
+--color-fondo: #fcfcfc;
+--color-estandar: #030303;
+--color-boton: #ffffff;
+--color-boton2: rgb(4, 173, 4);
+    --color-estandar-letras: black;
+    --color-estandar-letras2: white;
+    --titulo-tamaño: 5rem;
+    --fondo-imagen: url("Assets/blob-scene-haikei (1).svg");
+}
+body{
+    background-color: var(--color-fondo);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: var(--fondo-imagen);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background-color: var(--color-estandar2);
+    width: 100%;
+    height: 50px;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    /*overflow: hidden;*/
+    text-align: center;
+
+}
+.nav2{
+    background-color: var(--color-estandar2);
+    width: 100%;
+    height: 100px;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    /*overflow: hidden;*/
+    text-align: center;
+
+}
+
+img{
+    margin: 5px;
+    padding: 5px;
+   font-size: 20px;
+   width: 30px; 
+
+ 
+}
+a{
+    margin: 2rem;
+    color: var(--color-estandar);
+ 
+}
+a:hover{
+    color: var(--color-estandar-letras2);
+}
+.imghover img:hover{
+    width: 40px;
+
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 0%;
+    text-shadow:var(--color-estandar-letras) 10px 0 10px;
+
+}
+h1 {
+    font-size: var(--titulo-tamaño);
+    color: var(--color-estandar-letras2);
+ 
+}
+.cuadro{
+
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    position: center; 
+    margin: 2rem auto 0;
+    width: 30rem;
+
+}
+.cuadro2{
+
+   text-align: center;
+    font-size: 7rem;
+    padding-bottom: 30px;
+    overflow: hidden;
+    position: center; 
+    margin: 100px;
+    color: var(--color-estandar-letras2);
+   
+
+}
+label{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: var(--color-estandar-letras2);
+}
+input{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+
+}
+button{ 
+    position: relative;
+    display: flex;
+    background-color: var(--color-boton);
+    margin: 10px auto;
+}
+button:hover{
+    background-color: var(--color-boton2);
+    color: var(--color-estandar-letras2);
+}
+p{
+   font-size: 15px;
+   
+}
+footer{
+    position: relative;
+    background-color: var(--color-estandar2);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    color: var(--color-estandar);
+   
+
+}
