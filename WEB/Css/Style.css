@@ -48,17 +48,25 @@ nav{
     position: fixed;
     /*overflow: hidden;*/
     text-align: center;
+  
 
 }
 
 img{
-    margin: 5px;
+  margin: 5px;
     padding: 5px;
    font-size: 20px;
    width: 30px; 
-
- 
 }
+.imgAnuncio{
+    margin-top: 100px;
+    padding: 2px;
+ width: 50%; /* Ajusta el ancho de la imagen al 100% del tamaño original */
+   height: auto; /*Mantiene la altura original de la imagen */
+   object-fit: fill; /* Ajusta la imagen para cubrir el contenedor sin distorsionarla */
+
+}
+
 a{
     margin: 2rem;
     color: var(--color-estandar);
@@ -104,6 +112,16 @@ h1 {
     color: var(--color-estandar-letras2);
    
 
+}
+.cuadroAnuncio{
+ text-align: center;
+    font-size: 7rem;
+    padding-bottom: 30px;
+    overflow: hidden;
+    position: center; 
+    margin: 100px;
+    color: var(--color-estandar-letras2);
+  
 }
 label{
     position: relative;
