@@ -9,14 +9,59 @@
 <body>
     <header>
         <nav class="nav2">
+
           <div ><a class="imghover" href="inicio.html"> <img  src="Css/Assets/hogar.png"> </a> <a class="imghover" href="IniciarSesion.html">  <img src="Css/Assets/iniciar seccion.png" alt="Logo"> </a>  <a class="imghover" href=""> <img src="Css/Assets/carrito-de-compras.png"> </a> </div>
-            <div class=""> <a href=""> Categorias</a> <a href=""> Productos</a> <a href=""> Sobre nosotros</a> </div>    
-        </nav>
-    </header>
-    <main>
+</nav>
+
+          <nav class="nav3">
+
+          <div>
+            <a href=""> Categorias</a> <a href=""> Productos</a> <a href=""> Sobre nosotros</a> 
+          </div> 
+
+        <div class="BarraDeBusqueda"> 
+             <form action="Buscar_Producto.php" method="get"> 
+              <input class="buscar" type="text" name="busqueda" id="busqueda" placeholder="Buscar productos...">
+            </form>
+            </div>
+          </nav>
+
+        </header>
+        <main>
       
-  <section class ="cuadroAnuncio" id="Anuncios">
-    <img class="imgAnuncio" src="Css/Productos/Anuncio 1 .jpg" alt="Anuncio">
+  <section class="cuadroAnuncio" id="Anuncios">
+    
+  <div class="carrusel">
+
+ <div class="atras"> 
+   <img id="atras" src="Css/Assets/flecha-izquierda.png" alt="Atras" loading="lazy">
+ </div> 
+
+ <div class="imagenes">
+  <div id="img"> 
+   <img src="Css/Productos/Anuncio 1.jpg" alt="imagen 1" class="img" loading="lazy">
+  </div>
+
+<div id="texto" class="texto">
+
+<h3> Anuncios </h3>
+<p>Descubre nuestras mejores ofertas y productos destacados.</p>
+
+  </div>
+
+</div>
+
+  <div class="adelante"> 
+
+   <img id="adelante" src="Css/Assets/flecha-derecha.png" alt="Adelante" loading="lazy">
+  </div>
+
+</div>
+
+  <div class="puntos" id="puntos"> </div>
+
+ <script src="JAVA/app.js"></script>
+
   </section>
   
   <section class="cuadro" id="Productos">
@@ -29,6 +74,7 @@
     </section>
 
 //section opcional 
+
 <section class="cuadro" id="Marcas">  
     </section>
 
@@ -37,8 +83,9 @@
 
 </main>
 <footer>
-        <p>@Andru, Todos los derechos reservados</p>
-        <p>Contacto:
+        <p>@Pc Pelis, Todos los derechos reservados</p>
+        <p>Contacto: info@pcpelis.com</p>
+        <p> <img src="Css/Assets/html5.png" alt=""></p>
         </footer>
 </body>
 </html>
