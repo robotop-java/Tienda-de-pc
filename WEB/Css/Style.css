@@ -109,13 +109,12 @@ h1 {
 }
 
 .cuadro{
-
-    margin: 0 auto;
+   
     padding-top: 0px;
     padding-bottom: 20px;
     overflow: hidden;
     position: center; 
-    margin: 2rem auto 0;
+    margin: 2rem auto ;
     width: 30rem;
 
 }
@@ -130,6 +129,32 @@ h1 {
     margin: 100px;
     color: var(--color-estandar-letras2);
    
+
+}
+
+.cuadroProductos{
+   
+    display: flex;
+    flex-wrap: wrap;/* Permite que los elementos pasen para abajo */
+    gap: 10px; /* Controla el espacio entre los objetos */
+    
+}
+
+.cuadroProducto a, .cuadroProducto img{
+
+ width: calc(50% - 5px);  /* Calcula el ancho para que entren exactamente dos por fila, restando el espacio del gap */
+ box-sizing: border-box; /* Asegura que el padding o bordes no rompan el diseño */
+ width: 250px;
+   box-shadow: 0px 4px 10px #030303;
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem ;
+    color: var(--color-estandar-letras2);
+     box-shadow: 0px 4px 10px #030303;
+     background-color: var(--color-estandar);
 
 }
 

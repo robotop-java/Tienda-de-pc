@@ -1,17 +1,17 @@
 let imagenes = [
     {
     "url": "Css/Productos/Anuncio 1.jpg",
-    "nombre": "Anuncio 1",
+    "nombre": "Monitores",
     "descripcion": "Los nuevos monitores que llegaron a la tienda, con una calidad de imagen increible y un diseño elegante.",
     },
     {
         "url": "Css/Productos/Anuncio 3.jpg",
-        "nombre": "Anuncio 2",
+        "nombre": "Los mejores perefericos",
         "descripcion": "Los nuevos perifericos que llegaron a la tienda, con un rendimiento superior y una compatibilidad garantizada.",
     },
     {
         "url": "Css/Productos/Anuncio 2.jpg",
-        "nombre": "Anuncio 3",
+        "nombre": "Las mejores RAM",
         "descripcion": "Las nuevas ram llegadas a la tienda, con un rendimiento superior y una compatibilidad garantizada.",
     }
 ]
